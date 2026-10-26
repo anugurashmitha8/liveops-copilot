@@ -292,6 +292,7 @@ def run(issue_index=0, question=None, key=None):
     mem = HMem()
     now = _model_now(wm)
     seen = mem.observe(wm, issues, now)
+    mem.consolidate()  # lessons up to date before the agents read them
     print(f"[Memory] {len(seen['new'])} new, {len(seen['ongoing'])} ongoing, "
           f"{len(seen['resolved'])} resolved since last check")
     if not issues:
