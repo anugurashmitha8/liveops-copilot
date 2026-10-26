@@ -1,5 +1,7 @@
 import json
 from zetaris_tool import run_sql
+import os
+from logger import log
 
 
 def api_items(table):
@@ -19,14 +21,30 @@ def live_snapshot():
     }
 
 
+REF_CACHE = os.path.join("data", "reference_cache.json")
+
+
 def reference_data():
-    return {
-        "units": run_sql("SELECT * FROM riverside.UNITS", limit=1000),
-        "staff_roster": run_sql("SELECT * FROM riverside.STAFF", limit=1000),
-        "ambulances": run_sql("SELECT * FROM riverside.AMBULANCES", limit=1000),
-        "floors": run_sql("SELECT * FROM riverside.FLOORS", limit=1000),
-        "locations": run_sql("SELECT * FROM riverside.LOCATIONS", limit=1000),
-    }
+    """Snowflake reference data through Zetaris; falls back to the last saved copy."""
+    try:
+        ref = {
+            "units": run_sql("SELECT * FROM riverside.UNITS", limit=1000),
+            "staff_roster": run_sql("SELECT * FROM riverside.STAFF", limit=1000),
+            "ambulances": run_sql("SELECT * FROM riverside.AMBULANCES", limit=1000),
+            "floors": run_sql("SELECT * FROM riverside.FLOORS", limit=1000),
+            "locations": run_sql("SELECT * FROM riverside.LOCATIONS", limit=1000),
+        }
+    except Exception as err:
+        if not os.path.exists(REF_CACHE):
+            raise
+        log("sources", "reference_cache_used", {"error": str(err)[:300]})
+        print("[Sources] Snowflake unavailable: using saved reference data")
+        with open(REF_CACHE, encoding="utf-8") as f:
+            return json.load(f)
+    os.makedirs("data", exist_ok=True)
+    with open(REF_CACHE, "w", encoding="utf-8") as f:
+        json.dump(ref, f, indent=2, default=str)
+    return ref
 
 
 if __name__ == "__main__":

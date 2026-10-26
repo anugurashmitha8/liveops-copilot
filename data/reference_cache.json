@@ -1,0 +1,2103 @@
+{
+  "units": [
+    {
+      "UNIT_ID": "ED",
+      "UNIT_NAME": "Emergency Department",
+      "FLOOR": "1",
+      "UNIT_TYPE": "emergency",
+      "BED_COUNT": "20",
+      "NURSE_STATION": "ED-NS"
+    },
+    {
+      "UNIT_ID": "ICU",
+      "UNIT_NAME": "Intensive Care Unit",
+      "FLOOR": "2",
+      "UNIT_TYPE": "critical",
+      "BED_COUNT": "12",
+      "NURSE_STATION": "ICU-NS"
+    },
+    {
+      "UNIT_ID": "CVU",
+      "UNIT_NAME": "Cardiac Telemetry",
+      "FLOOR": "2",
+      "UNIT_TYPE": "telemetry",
+      "BED_COUNT": "16",
+      "NURSE_STATION": "CVU-NS"
+    },
+    {
+      "UNIT_ID": "3W",
+      "UNIT_NAME": "Medical-Surgical 3 West",
+      "FLOOR": "3",
+      "UNIT_TYPE": "med_surg",
+      "BED_COUNT": "24",
+      "NURSE_STATION": "3W-NS"
+    },
+    {
+      "UNIT_ID": "4E",
+      "UNIT_NAME": "Medical-Surgical 4 East",
+      "FLOOR": "4",
+      "UNIT_TYPE": "med_surg",
+      "BED_COUNT": "24",
+      "NURSE_STATION": "4E-NS"
+    },
+    {
+      "UNIT_ID": "L&D",
+      "UNIT_NAME": "Labor & Delivery / Maternity",
+      "FLOOR": "5",
+      "UNIT_TYPE": "maternity",
+      "BED_COUNT": "12",
+      "NURSE_STATION": "L&D-NS"
+    },
+    {
+      "UNIT_ID": "PEDS",
+      "UNIT_NAME": "Pediatrics",
+      "FLOOR": "5",
+      "UNIT_TYPE": "pediatrics",
+      "BED_COUNT": "10",
+      "NURSE_STATION": "PEDS-NS"
+    }
+  ],
+  "staff_roster": [
+    {
+      "STAFF_ID": "S1013",
+      "NAME": "Lisa Hensley",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-210",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4194",
+      "BADGE_LAST_SEEN": "2026-10-22 17:31:22.64",
+      "UPDATED_AT": "2026-10-22 17:31:22.64"
+    },
+    {
+      "STAFF_ID": "S1024",
+      "NAME": "Tommy Walter",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-304A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4311",
+      "BADGE_LAST_SEEN": "2026-10-22 17:32:33.543",
+      "UPDATED_AT": "2026-10-22 17:28:22.918"
+    },
+    {
+      "STAFF_ID": "S1041",
+      "NAME": "Paula Moreno",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4683",
+      "BADGE_LAST_SEEN": "2026-10-22 17:35:19.423",
+      "UPDATED_AT": "2026-10-22 17:25:46.605"
+    },
+    {
+      "STAFF_ID": "S1036",
+      "NAME": "Jeffrey Chavez",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-403A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4914",
+      "BADGE_LAST_SEEN": "2026-10-22 17:35:53.446",
+      "UPDATED_AT": "2026-10-22 17:35:53.446"
+    },
+    {
+      "STAFF_ID": "S1047",
+      "NAME": "John Pierce",
+      "ROLE": "Emergency Physician",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-10",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4283",
+      "BADGE_LAST_SEEN": "2026-10-22 17:35:19.423",
+      "UPDATED_AT": "2026-10-22 17:29:32.701"
+    },
+    {
+      "STAFF_ID": "S1056",
+      "NAME": "Michael Lewis",
+      "ROLE": "Hospitalist",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-408A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4006",
+      "BADGE_LAST_SEEN": "2026-10-22 17:31:22.64",
+      "UPDATED_AT": "2026-10-22 17:30:47.309"
+    },
+    {
+      "STAFF_ID": "S1007",
+      "NAME": "Abigail Shaffer",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-02",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4521",
+      "BADGE_LAST_SEEN": "2026-10-22 17:35:53.446",
+      "UPDATED_AT": "2026-10-22 17:28:22.918"
+    },
+    {
+      "STAFF_ID": "S1027",
+      "NAME": "Justin Baker",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4484",
+      "BADGE_LAST_SEEN": "2026-10-22 17:36:28.581",
+      "UPDATED_AT": "2026-10-22 17:21:53.878"
+    },
+    {
+      "STAFF_ID": "S1025",
+      "NAME": "Matthew Foster",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-311B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4621",
+      "BADGE_LAST_SEEN": "2026-10-22 17:36:28.581",
+      "UPDATED_AT": "2026-10-22 17:35:53.446"
+    },
+    {
+      "STAFF_ID": "S1002",
+      "NAME": "Noah Rhodes",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-02",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4227",
+      "BADGE_LAST_SEEN": "2026-10-22 17:36:28.581",
+      "UPDATED_AT": "2026-10-22 17:35:53.446"
+    },
+    {
+      "STAFF_ID": "S1063",
+      "NAME": "Connor West",
+      "ROLE": "Transporter",
+      "DEPARTMENT": "Patient Transport",
+      "CURRENT_LOCATION": "Transport Hub B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4606",
+      "BADGE_LAST_SEEN": "2026-10-22 17:40:10.549",
+      "UPDATED_AT": "2026-10-22 17:40:10.549"
+    },
+    {
+      "STAFF_ID": "S1022",
+      "NAME": "Patty Perez",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-208B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4693",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:10.101",
+      "UPDATED_AT": "2026-10-22 17:31:57.712"
+    },
+    {
+      "STAFF_ID": "S1051",
+      "NAME": "Jessica Holmes",
+      "ROLE": "Intensivist",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-208",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4236",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:10.101",
+      "UPDATED_AT": "2026-10-22 17:31:57.712"
+    },
+    {
+      "STAFF_ID": "S1012",
+      "NAME": "Jamie Arnold",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-206",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4523",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:46.378",
+      "UPDATED_AT": "2026-10-22 17:31:57.712"
+    },
+    {
+      "STAFF_ID": "S1001",
+      "NAME": "Allison Hill",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-09",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4391",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:38:18.014"
+    },
+    {
+      "STAFF_ID": "S1018",
+      "NAME": "Derek Zuniga",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-203B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4679",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:46.378",
+      "UPDATED_AT": "2026-10-22 17:34:44.994"
+    },
+    {
+      "STAFF_ID": "S1040",
+      "NAME": "Brittany Farmer",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-508",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4467",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:46.378",
+      "UPDATED_AT": "2026-10-22 17:37:10.101"
+    },
+    {
+      "STAFF_ID": "S1057",
+      "NAME": "Timothy Duncan",
+      "ROLE": "Cardiologist",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-205A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4873",
+      "BADGE_LAST_SEEN": "2026-10-22 17:37:10.101",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1049",
+      "NAME": "Joshua Blair",
+      "ROLE": "Emergency Physician",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-10",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4730",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:36:28.581"
+    },
+    {
+      "STAFF_ID": "S1032",
+      "NAME": "James Ferrell",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-402B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4625",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1037",
+      "NAME": "Sherri Baker",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4797",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1060",
+      "NAME": "John Daniel",
+      "ROLE": "Pediatrician",
+      "DEPARTMENT": "PEDS",
+      "CURRENT_LOCATION": "PEDS-501",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4398",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1053",
+      "NAME": "Crystal Robinson",
+      "ROLE": "Hospitalist",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-301A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4477",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1029",
+      "NAME": "Zachary Hicks",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-303B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4634",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1030",
+      "NAME": "Anthony Rodriguez",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-401A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4688",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:31:22.64"
+    },
+    {
+      "STAFF_ID": "S1042",
+      "NAME": "Fred Smith",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-504",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "in_procedure",
+      "PHONE_EXT": "x4324",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:28:22.918"
+    },
+    {
+      "STAFF_ID": "S1026",
+      "NAME": "Judy Baker",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-306B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4452",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:29:32.701"
+    },
+    {
+      "STAFF_ID": "S1066",
+      "NAME": "Amber Kidd",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "CVU-208A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4216",
+      "BADGE_LAST_SEEN": "2026-10-22 17:40:10.549",
+      "UPDATED_AT": "2026-10-22 17:40:10.549"
+    },
+    {
+      "STAFF_ID": "S1070",
+      "NAME": "William Baker",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "EVS Office B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4229",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:14:35.524"
+    },
+    {
+      "STAFF_ID": "S1044",
+      "NAME": "Anthony Humphrey",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "PEDS",
+      "CURRENT_LOCATION": "PEDS-502",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4850",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:37:46.378"
+    },
+    {
+      "STAFF_ID": "S1067",
+      "NAME": "Tracy House",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "EVS Office B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4284",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:36:28.581"
+    },
+    {
+      "STAFF_ID": "S1043",
+      "NAME": "Sherry Decker",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "PEDS",
+      "CURRENT_LOCATION": "PEDS-507",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4834",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:24:30.736"
+    },
+    {
+      "STAFF_ID": "S1072",
+      "NAME": "Whitney Peters",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "3W-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4859",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 16:03:43.847"
+    },
+    {
+      "STAFF_ID": "S1034",
+      "NAME": "Nathan Maldonado",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4735",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:25:46.605"
+    },
+    {
+      "STAFF_ID": "S1069",
+      "NAME": "James Brown",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "4E-412B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4767",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:35:53.446"
+    },
+    {
+      "STAFF_ID": "S1062",
+      "NAME": "Gerald Hensley",
+      "ROLE": "Transporter",
+      "DEPARTMENT": "Patient Transport",
+      "CURRENT_LOCATION": "Transport Hub B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4637",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1028",
+      "NAME": "Stephanie Ross",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-303B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4674",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1073",
+      "NAME": "Brittney Phillips",
+      "ROLE": "Bed Manager",
+      "DEPARTMENT": "Patient Flow",
+      "CURRENT_LOCATION": "Command Center 1F",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4244",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1005",
+      "NAME": "Cristian Santos",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-06",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4336",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1011",
+      "NAME": "Monica Herrera",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-202",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "in_procedure",
+      "PHONE_EXT": "x4746",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1006",
+      "NAME": "Connie Lawrence",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4990",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:25:08.419"
+    },
+    {
+      "STAFF_ID": "S1048",
+      "NAME": "Shane Henderson",
+      "ROLE": "Emergency Physician",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-06",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "in_procedure",
+      "PHONE_EXT": "x4641",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:38:18.014"
+    },
+    {
+      "STAFF_ID": "S1004",
+      "NAME": "Daniel Wagner",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-04",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4228",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1052",
+      "NAME": "Danny Morgan",
+      "ROLE": "Hospitalist",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-312B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4065",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:18:00.389"
+    },
+    {
+      "STAFF_ID": "S1019",
+      "NAME": "Lisa Jackson",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-203B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4519",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:49.998",
+      "UPDATED_AT": "2026-10-22 17:28:22.918"
+    },
+    {
+      "STAFF_ID": "S1009",
+      "NAME": "Gabrielle Davis",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-210",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4182",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1017",
+      "NAME": "Holly Wood",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-204B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4071",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1003",
+      "NAME": "Angie Henderson",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-16",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4358",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1010",
+      "NAME": "Ryan Munoz",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-210",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4039",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1058",
+      "NAME": "Richard Aguirre",
+      "ROLE": "Obstetrician",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-508",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4819",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1055",
+      "NAME": "Shannon Jones",
+      "ROLE": "Hospitalist",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-405A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4877",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "STAFF_ID": "S1064",
+      "NAME": "Donald Wright",
+      "ROLE": "Transporter",
+      "DEPARTMENT": "Patient Transport",
+      "CURRENT_LOCATION": "Transport Hub B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4658",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 17:37:10.101"
+    },
+    {
+      "STAFF_ID": "S1045",
+      "NAME": "Angelica Tucker",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "PEDS",
+      "CURRENT_LOCATION": "PEDS-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4162",
+      "BADGE_LAST_SEEN": "2026-10-22 17:38:18.014",
+      "UPDATED_AT": "2026-10-22 16:03:43.847"
+    },
+    {
+      "STAFF_ID": "S1015",
+      "NAME": "Dylan Miller",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4551",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1071",
+      "NAME": "Jordan Henderson",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "EVS Office B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4772",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 16:37:41.574"
+    },
+    {
+      "STAFF_ID": "S1038",
+      "NAME": "Cassandra Gaines",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-504",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4980",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:27:10.689"
+    },
+    {
+      "STAFF_ID": "S1023",
+      "NAME": "Ethan Adams",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-302B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4582",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:34:44.994"
+    },
+    {
+      "STAFF_ID": "S1016",
+      "NAME": "Brian Ramirez",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-203",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4754",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:37:10.101"
+    },
+    {
+      "STAFF_ID": "S1035",
+      "NAME": "Debra Davidson",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-408A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4249",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:35:19.423"
+    },
+    {
+      "STAFF_ID": "S1033",
+      "NAME": "Tricia Valencia",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-407B",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4424",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:38:18.014"
+    },
+    {
+      "STAFF_ID": "S1059",
+      "NAME": "Brent Jordan",
+      "ROLE": "Obstetrician",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-507",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4224",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:38:18.014"
+    },
+    {
+      "STAFF_ID": "S1068",
+      "NAME": "Carol Tucker",
+      "ROLE": "EVS Technician",
+      "DEPARTMENT": "Environmental Services",
+      "CURRENT_LOCATION": "EVS Office B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4258",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:37:10.101"
+    },
+    {
+      "STAFF_ID": "S1021",
+      "NAME": "Margaret Hawkins DDS",
+      "ROLE": "Charge Nurse",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4130",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:20:44.478"
+    },
+    {
+      "STAFF_ID": "S1065",
+      "NAME": "Jessica Callahan",
+      "ROLE": "Transporter",
+      "DEPARTMENT": "Patient Transport",
+      "CURRENT_LOCATION": "Transport Hub B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4186",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:32:33.543"
+    },
+    {
+      "STAFF_ID": "S1008",
+      "NAME": "Gina Moore",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "ED",
+      "CURRENT_LOCATION": "ED-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4339",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1054",
+      "NAME": "Mark Perez",
+      "ROLE": "Hospitalist",
+      "DEPARTMENT": "3W",
+      "CURRENT_LOCATION": "3W-301A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4398",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1020",
+      "NAME": "Carla Gray",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "CVU",
+      "CURRENT_LOCATION": "CVU-205A",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4412",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:38:49.998"
+    },
+    {
+      "STAFF_ID": "S1046",
+      "NAME": "Philip Cannon",
+      "ROLE": "Patient Care Tech",
+      "DEPARTMENT": "PEDS",
+      "CURRENT_LOCATION": "PEDS-508",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4265",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:37:10.101"
+    },
+    {
+      "STAFF_ID": "S1050",
+      "NAME": "Eric Carney",
+      "ROLE": "Intensivist",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-209",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4327",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:37:46.378"
+    },
+    {
+      "STAFF_ID": "S1061",
+      "NAME": "Victoria Garcia",
+      "ROLE": "Transporter",
+      "DEPARTMENT": "Patient Transport",
+      "CURRENT_LOCATION": "Transport Hub B1",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4741",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:06:01.654"
+    },
+    {
+      "STAFF_ID": "S1039",
+      "NAME": "Elizabeth Fowler",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "L&D",
+      "CURRENT_LOCATION": "L&D-510",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4570",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:36:28.581"
+    },
+    {
+      "STAFF_ID": "S1031",
+      "NAME": "Rebecca Henderson",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "4E",
+      "CURRENT_LOCATION": "4E-NS",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_duty",
+      "PHONE_EXT": "x4150",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:34:09.471"
+    },
+    {
+      "STAFF_ID": "S1014",
+      "NAME": "Michele Williams",
+      "ROLE": "Registered Nurse",
+      "DEPARTMENT": "ICU",
+      "CURRENT_LOCATION": "ICU-212",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4001",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:25:08.419"
+    },
+    {
+      "STAFF_ID": "S1074",
+      "NAME": "Lauren Daniels",
+      "ROLE": "House Supervisor",
+      "DEPARTMENT": "Nursing Admin",
+      "CURRENT_LOCATION": "Command Center 1F",
+      "SHIFT": "Day 07:00\u201319:00",
+      "STATUS": "on_break",
+      "PHONE_EXT": "x4117",
+      "BADGE_LAST_SEEN": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:35:19.423"
+    }
+  ],
+  "ambulances": [
+    {
+      "UNIT_ID": "Medic 6",
+      "CALL_SIGN": "M06",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9805",
+      "LONGITUDE": "-83.021",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 4",
+      "CREW": "Lori Hill; Dustin Nelson",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 1",
+      "CALL_SIGN": "M01",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9401",
+      "LONGITUDE": "-82.9702",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 12",
+      "CREW": "Paul Carrillo; Jeffery Thompson",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 7",
+      "CALL_SIGN": "M07",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9401",
+      "LONGITUDE": "-82.9702",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 12",
+      "CREW": "Joshua Taylor; Michael Mccarthy",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 2",
+      "CALL_SIGN": "M02",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9655",
+      "LONGITUDE": "-83.0563",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 7",
+      "CREW": "Kelly Williams; Ryan Bryant",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 5",
+      "CALL_SIGN": "M05",
+      "TYPE": "BLS",
+      "STATUS": "transporting_to_hospital",
+      "LATITUDE": "39.96396",
+      "LONGITUDE": "-83.01706",
+      "HEADING_DEG": "99",
+      "SPEED_MPH": "37",
+      "HOME_STATION": "Station 7",
+      "CREW": "Karen Green; Mark Cannon",
+      "DESTINATION": "Riverside General \u2013 ED",
+      "ETA_MINUTES": "11",
+      "PATIENT_SUMMARY": "68M chest pain, STEMI alert",
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 3",
+      "CALL_SIGN": "M03",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9805",
+      "LONGITUDE": "-83.021",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 4",
+      "CREW": "Mary Travis; Tiffany Vance",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 4",
+      "CALL_SIGN": "M04",
+      "TYPE": "BLS",
+      "STATUS": "transporting_to_hospital",
+      "LATITUDE": "39.95481",
+      "LONGITUDE": "-82.99067",
+      "HEADING_DEG": "308",
+      "SPEED_MPH": "46",
+      "HOME_STATION": "Station 12",
+      "CREW": "Michelle Wagner; Kimberly Merritt",
+      "DESTINATION": "Riverside General \u2013 ED",
+      "ETA_MINUTES": "11",
+      "PATIENT_SUMMARY": "68M chest pain, STEMI alert",
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    },
+    {
+      "UNIT_ID": "Medic 8",
+      "CALL_SIGN": "M08",
+      "TYPE": "ALS",
+      "STATUS": "available",
+      "LATITUDE": "39.9655",
+      "LONGITUDE": "-83.0563",
+      "HEADING_DEG": null,
+      "SPEED_MPH": "0",
+      "HOME_STATION": "Station 7",
+      "CREW": "Jason Daniels; Daniel Fisher",
+      "DESTINATION": null,
+      "ETA_MINUTES": null,
+      "PATIENT_SUMMARY": null,
+      "LAST_GPS_UPDATE": "2026-10-22 17:39:24.265",
+      "UPDATED_AT": "2026-10-22 17:39:24.265"
+    }
+  ],
+  "floors": [
+    {
+      "FLOOR": "0",
+      "FLOOR_NAME": "B1 \u2013 Support"
+    },
+    {
+      "FLOOR": "1",
+      "FLOOR_NAME": "Floor 1 \u2013 Emergency"
+    },
+    {
+      "FLOOR": "2",
+      "FLOOR_NAME": "Floor 2 \u2013 Critical Care & Cardiac"
+    },
+    {
+      "FLOOR": "3",
+      "FLOOR_NAME": "Floor 3 \u2013 Med-Surg 3 West"
+    },
+    {
+      "FLOOR": "4",
+      "FLOOR_NAME": "Floor 4 \u2013 Med-Surg 4 East"
+    },
+    {
+      "FLOOR": "5",
+      "FLOOR_NAME": "Floor 5 \u2013 Women & Children"
+    }
+  ],
+  "locations": [
+    {
+      "LOCATION_NAME": "ED-NS",
+      "FLOOR": "1",
+      "X": "27.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "ED-01",
+      "FLOOR": "1",
+      "X": "3.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-02",
+      "FLOOR": "1",
+      "X": "8.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-03",
+      "FLOOR": "1",
+      "X": "13.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-04",
+      "FLOOR": "1",
+      "X": "18.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-05",
+      "FLOOR": "1",
+      "X": "23.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-06",
+      "FLOOR": "1",
+      "X": "28.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-07",
+      "FLOOR": "1",
+      "X": "33.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-08",
+      "FLOOR": "1",
+      "X": "38.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-09",
+      "FLOOR": "1",
+      "X": "43.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-10",
+      "FLOOR": "1",
+      "X": "48.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-11",
+      "FLOOR": "1",
+      "X": "3.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-12",
+      "FLOOR": "1",
+      "X": "8.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-13",
+      "FLOOR": "1",
+      "X": "13.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-14",
+      "FLOOR": "1",
+      "X": "18.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-15",
+      "FLOOR": "1",
+      "X": "23.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-16",
+      "FLOOR": "1",
+      "X": "28.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-17",
+      "FLOOR": "1",
+      "X": "33.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-18",
+      "FLOOR": "1",
+      "X": "38.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-19",
+      "FLOOR": "1",
+      "X": "43.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED-20",
+      "FLOOR": "1",
+      "X": "48.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-NS",
+      "FLOOR": "2",
+      "X": "17.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "ICU-201",
+      "FLOOR": "2",
+      "X": "3.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-202",
+      "FLOOR": "2",
+      "X": "8.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-203",
+      "FLOOR": "2",
+      "X": "13.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-204",
+      "FLOOR": "2",
+      "X": "18.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-205",
+      "FLOOR": "2",
+      "X": "23.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-206",
+      "FLOOR": "2",
+      "X": "28.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-207",
+      "FLOOR": "2",
+      "X": "3.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-208",
+      "FLOOR": "2",
+      "X": "8.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-209",
+      "FLOOR": "2",
+      "X": "13.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-210",
+      "FLOOR": "2",
+      "X": "18.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-211",
+      "FLOOR": "2",
+      "X": "23.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ICU-212",
+      "FLOOR": "2",
+      "X": "28.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-NS",
+      "FLOOR": "2",
+      "X": "52.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "CVU-201A",
+      "FLOOR": "2",
+      "X": "43.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-201B",
+      "FLOOR": "2",
+      "X": "45.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-202A",
+      "FLOOR": "2",
+      "X": "48.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-202B",
+      "FLOOR": "2",
+      "X": "50.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-203A",
+      "FLOOR": "2",
+      "X": "53.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-203B",
+      "FLOOR": "2",
+      "X": "55.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-204A",
+      "FLOOR": "2",
+      "X": "58.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-204B",
+      "FLOOR": "2",
+      "X": "60.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-205A",
+      "FLOOR": "2",
+      "X": "43.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-205B",
+      "FLOOR": "2",
+      "X": "45.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-206A",
+      "FLOOR": "2",
+      "X": "48.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-206B",
+      "FLOOR": "2",
+      "X": "50.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-207A",
+      "FLOOR": "2",
+      "X": "53.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-207B",
+      "FLOOR": "2",
+      "X": "55.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-208A",
+      "FLOOR": "2",
+      "X": "58.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "CVU-208B",
+      "FLOOR": "2",
+      "X": "60.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-NS",
+      "FLOOR": "3",
+      "X": "17.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "3W-301A",
+      "FLOOR": "3",
+      "X": "3.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-301B",
+      "FLOOR": "3",
+      "X": "5.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-302A",
+      "FLOOR": "3",
+      "X": "8.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-302B",
+      "FLOOR": "3",
+      "X": "10.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-303A",
+      "FLOOR": "3",
+      "X": "13.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-303B",
+      "FLOOR": "3",
+      "X": "15.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-304A",
+      "FLOOR": "3",
+      "X": "18.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-304B",
+      "FLOOR": "3",
+      "X": "20.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-305A",
+      "FLOOR": "3",
+      "X": "23.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-305B",
+      "FLOOR": "3",
+      "X": "25.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-306A",
+      "FLOOR": "3",
+      "X": "28.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-306B",
+      "FLOOR": "3",
+      "X": "30.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-307A",
+      "FLOOR": "3",
+      "X": "3.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-307B",
+      "FLOOR": "3",
+      "X": "5.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-308A",
+      "FLOOR": "3",
+      "X": "8.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-308B",
+      "FLOOR": "3",
+      "X": "10.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-309A",
+      "FLOOR": "3",
+      "X": "13.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-309B",
+      "FLOOR": "3",
+      "X": "15.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-310A",
+      "FLOOR": "3",
+      "X": "18.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-310B",
+      "FLOOR": "3",
+      "X": "20.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-311A",
+      "FLOOR": "3",
+      "X": "23.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-311B",
+      "FLOOR": "3",
+      "X": "25.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-312A",
+      "FLOOR": "3",
+      "X": "28.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "3W-312B",
+      "FLOOR": "3",
+      "X": "30.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-NS",
+      "FLOOR": "4",
+      "X": "17.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "4E-401A",
+      "FLOOR": "4",
+      "X": "3.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-401B",
+      "FLOOR": "4",
+      "X": "5.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-402A",
+      "FLOOR": "4",
+      "X": "8.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-402B",
+      "FLOOR": "4",
+      "X": "10.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-403A",
+      "FLOOR": "4",
+      "X": "13.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-403B",
+      "FLOOR": "4",
+      "X": "15.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-404A",
+      "FLOOR": "4",
+      "X": "18.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-404B",
+      "FLOOR": "4",
+      "X": "20.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-405A",
+      "FLOOR": "4",
+      "X": "23.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-405B",
+      "FLOOR": "4",
+      "X": "25.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-406A",
+      "FLOOR": "4",
+      "X": "28.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-406B",
+      "FLOOR": "4",
+      "X": "30.2",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-407A",
+      "FLOOR": "4",
+      "X": "3.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-407B",
+      "FLOOR": "4",
+      "X": "5.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-408A",
+      "FLOOR": "4",
+      "X": "8.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-408B",
+      "FLOOR": "4",
+      "X": "10.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-409A",
+      "FLOOR": "4",
+      "X": "13.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-409B",
+      "FLOOR": "4",
+      "X": "15.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-410A",
+      "FLOOR": "4",
+      "X": "18.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-410B",
+      "FLOOR": "4",
+      "X": "20.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-411A",
+      "FLOOR": "4",
+      "X": "23.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-411B",
+      "FLOOR": "4",
+      "X": "25.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-412A",
+      "FLOOR": "4",
+      "X": "28.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "4E-412B",
+      "FLOOR": "4",
+      "X": "30.2",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-NS",
+      "FLOOR": "5",
+      "X": "17.0",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "L&D-501",
+      "FLOOR": "5",
+      "X": "3.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-502",
+      "FLOOR": "5",
+      "X": "8.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-503",
+      "FLOOR": "5",
+      "X": "13.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-504",
+      "FLOOR": "5",
+      "X": "18.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-505",
+      "FLOOR": "5",
+      "X": "23.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-506",
+      "FLOOR": "5",
+      "X": "28.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-507",
+      "FLOOR": "5",
+      "X": "3.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-508",
+      "FLOOR": "5",
+      "X": "8.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-509",
+      "FLOOR": "5",
+      "X": "13.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-510",
+      "FLOOR": "5",
+      "X": "18.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-511",
+      "FLOOR": "5",
+      "X": "23.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "L&D-512",
+      "FLOOR": "5",
+      "X": "28.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-NS",
+      "FLOOR": "5",
+      "X": "54.5",
+      "Y": "9.5",
+      "KIND": "nurse_station"
+    },
+    {
+      "LOCATION_NAME": "PEDS-501",
+      "FLOOR": "5",
+      "X": "43.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-502",
+      "FLOOR": "5",
+      "X": "48.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-503",
+      "FLOOR": "5",
+      "X": "53.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-504",
+      "FLOOR": "5",
+      "X": "58.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-505",
+      "FLOOR": "5",
+      "X": "63.0",
+      "Y": "4.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-506",
+      "FLOOR": "5",
+      "X": "43.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-507",
+      "FLOOR": "5",
+      "X": "48.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-508",
+      "FLOOR": "5",
+      "X": "53.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-509",
+      "FLOOR": "5",
+      "X": "58.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "PEDS-510",
+      "FLOOR": "5",
+      "X": "63.0",
+      "Y": "18.5",
+      "KIND": "bed"
+    },
+    {
+      "LOCATION_NAME": "ED Waiting Room",
+      "FLOOR": "1",
+      "X": "62.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Ambulance bay",
+      "FLOOR": "1",
+      "X": "62.0",
+      "Y": "9.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Command Center 1F",
+      "FLOOR": "1",
+      "X": "62.0",
+      "Y": "15.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Elevator Bank A",
+      "FLOOR": "1",
+      "X": "62.0",
+      "Y": "21.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Radiology",
+      "FLOOR": "1",
+      "X": "72.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Radiology \u2013 CT 1",
+      "FLOOR": "1",
+      "X": "72.0",
+      "Y": "9.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Radiology \u2013 CT 2",
+      "FLOOR": "1",
+      "X": "72.0",
+      "Y": "15.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Radiology \u2013 MRI",
+      "FLOOR": "1",
+      "X": "72.0",
+      "Y": "21.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Radiology \u2013 X-Ray",
+      "FLOOR": "1",
+      "X": "82.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Discharge Lounge",
+      "FLOOR": "1",
+      "X": "82.0",
+      "Y": "9.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Echo Lab",
+      "FLOOR": "2",
+      "X": "72.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Cath Lab 1",
+      "FLOOR": "2",
+      "X": "72.0",
+      "Y": "9.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "OR 4",
+      "FLOOR": "2",
+      "X": "72.0",
+      "Y": "15.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Dialysis",
+      "FLOOR": "3",
+      "X": "42.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "Transport Hub B1",
+      "FLOOR": "0",
+      "X": "8.0",
+      "Y": "3.0",
+      "KIND": "place"
+    },
+    {
+      "LOCATION_NAME": "EVS Office B1",
+      "FLOOR": "0",
+      "X": "8.0",
+      "Y": "9.0",
+      "KIND": "place"
+    }
+  ]
+}
