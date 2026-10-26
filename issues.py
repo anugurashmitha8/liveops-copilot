@@ -196,8 +196,8 @@ def find_issues(wm, now=None):
     for pid, p in patients:
         if _val(p, "status") == "boarding" and _val(p, "assigned_bed"):
             tbed = wm.entities.get(_eid("bed", _val(p, "assigned_bed")))
-            if tbed and _val(tbed, "unit_id"):
-                boarders_by_unit[str(_val(tbed, "unit_id"))].append(pid)
+            if tbed and _val(tbed, "unit_id") and _val(tbed, "status") not in ("reserved", "available"):
+                boarders_by_unit[str(_val(tbed, "unit_id"))].append(pid)  # only boarders whose bed isn't ready yet
     for unit, pids in backlog.items():
         waiting = boarders_by_unit.get(unit, [])
         ev = [_ev(pid, wm.entities[pid], a) for pid in pids[:5]

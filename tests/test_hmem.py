@@ -59,3 +59,13 @@ def test_brief_gap_does_not_reset_the_clock(tmp_path):
     back = mem.observe(wm, [ISSUE], T0 + timedelta(minutes=2))
     assert back["ongoing"] == ["unit_full|unit:ICU"]
     assert "2 min ago" in mem.recall(ISSUE, T0 + timedelta(minutes=2))
+
+def test_long_gap_restarts_clocks(tmp_path):
+    mem = HMem(root=str(tmp_path))
+    wm = WorldModel()
+    mem.observe(wm, [ISSUE], T0)
+    mem.observe(wm, [ISSUE], T0 + timedelta(minutes=5))
+    mem.observe(wm, [ISSUE], T0 + timedelta(hours=10))
+    assert "0 min ago" in mem.recall(ISSUE, T0 + timedelta(hours=10))
+    gap = [e for e in mem.episodes() if e.get("gap")]
+    assert gap and gap[0]["minutes_open"] == 5

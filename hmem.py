@@ -22,7 +22,7 @@ from logger import RUN_ID, log
 LIVE = "live_api"
 TRACKED_STATUSES = {"boarding", "discharge_ordered", "ready_for_discharge"}
 RESOLVE_AFTER_MIN = 3  # an issue must be gone this long before it counts as resolved
-
+GAP_MIN = 30  # no check for this long: the Copilot wasn't watching, so restart open clocks
 
 def _iso(dt):
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -94,6 +94,22 @@ class HMem:
     def observe(self, wm, issues, now):
         """Update working memory from the current World Model and issues."""
         now_s = _iso(now)
+        last = self.working.get("last_observe")
+        if last and _mins(now, _parse(last)) > GAP_MIN:
+            # Durations across a gap would be invented: close open issues at their
+            # last sighting and start fresh.
+            for key, rec in list(self.working["issues"].items()):
+                self._append_episode({
+                    "kind": "resolved", "key": key, "type": rec["type"],
+                    "first_seen": rec["first_seen"], "cleared_at": rec["last_seen"],
+                    "minutes_open": _mins(_parse(rec["last_seen"]), _parse(rec["first_seen"])),
+                    "last_summary": rec["summary"], "run_id": RUN_ID, "gap": True})
+            self.working["issues"] = {}
+            self.working["status"] = {}
+            self._ledger("observation_gap", {
+                "since": last, "minutes": _mins(now, _parse(last)),
+                "reason": "no checks during the gap; open clocks restarted"})
+        self.working["last_observe"] = now_s
 
         status = self.working["status"]
         for eid, ent in wm.entities.items():
@@ -168,7 +184,7 @@ class HMem:
                 lines.append(f"{eid} has been {age[0]} for at least {age[1]} min "
                              f"(since first observed).")
         for ep in [e for e in self.episodes(key) if e["kind"] == "resolved"][-3:]:
-            lines.append(f"Previously this issue cleared after {ep['minutes_open']} "
+            lines.append(f"Recently this issue cleared after {ep['minutes_open']} "
                          f"min (cleared at {ep['cleared_at']}).")
         lesson = self.semantic["lessons"].get(key)
         if lesson:
